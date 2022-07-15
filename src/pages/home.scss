@@ -1,0 +1,31 @@
+.table-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+
+  table .table-header {
+    background-color: rgb(91, 155, 213);
+  }
+
+  .page-numbers-container {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+
+    button {
+      width: 25px;
+      height: 25px;
+      border-radius: 50%;
+      background: transparent;
+      border: 1px solid grey;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: rgb(91, 155, 213);
+    }
+  }
+}
